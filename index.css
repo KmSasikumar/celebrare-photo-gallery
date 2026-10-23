@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* Small custom bit the brief needs (loading spinner) — everything else is Tailwind utilities */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loader {
+  animation: spin 0.9s linear infinite;
+}
